@@ -1,0 +1,2 @@
+# diplomatura
+Scripts Diplomatura datascience
