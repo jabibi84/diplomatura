@@ -1,0 +1,25 @@
+import sys
+import os
+import os.path
+
+bfTmp = ''
+lsOutTmp = []
+InFileName = []
+lsHTMLName = []
+
+fileNameIn= sys.argv[1]
+fileNameOu= sys.argv[2]
+
+fo = open(fileNameIn)
+InFileName += [x.replace('\n', '') for x in fo.readlines()]
+fo.close()
+
+for bfMatFile in InFileName:
+     3 ultimas lineas
+     lsOutTmp.append()
+
+bufferTmp = '\n'
+bufferTmp = bufferTmp.join(lsOutTmp)
+fo= open(fileNameOu, 'w')
+fo.write(bufferTmp)
+fo.close()
